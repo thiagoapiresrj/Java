@@ -1,11 +1,14 @@
 package curso.java.thiago;
 
+import java.sql.Date;
+
 public class Pessoa {
 
 	
 	private String nome;
 	private String sobrenome;
 	private int idade;
+	private Date datanascimento;
 	
 	public String getNome() {
 		return nome;
@@ -24,6 +27,12 @@ public class Pessoa {
 	}
 	public void setIdade(int idade) {
 		this.idade = idade;
+	}
+	public Date getDatanascimento() {
+		return datanascimento;
+	}
+	public void setDatanascimento(Date datanascimento) {
+		this.datanascimento = datanascimento;
 	}
 	
 	
