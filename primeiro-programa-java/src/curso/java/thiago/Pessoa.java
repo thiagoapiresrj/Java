@@ -6,11 +6,9 @@ public class Pessoa {
 	private String nome;
 	private String sobrenome;
 	private int idade;
-<<<<<<< master
 	private Date datanascimento;
 	private Date datanascimento2;
-=======
->>>>>>> 0d65c1b adicionando data nascimento na classe pessoa.
+
 	
 	public String getNome() {
 		return nome;
