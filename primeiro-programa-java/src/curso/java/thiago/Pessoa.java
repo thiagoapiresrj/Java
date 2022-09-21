@@ -1,15 +1,16 @@
 package curso.java.thiago;
 
-import java.sql.Date;
-
 public class Pessoa {
 
 	
 	private String nome;
 	private String sobrenome;
 	private int idade;
+<<<<<<< master
 	private Date datanascimento;
 	private Date datanascimento2;
+=======
+>>>>>>> 0d65c1b adicionando data nascimento na classe pessoa.
 	
 	public String getNome() {
 		return nome;
@@ -28,12 +29,6 @@ public class Pessoa {
 	}
 	public void setIdade(int idade) {
 		this.idade = idade;
-	}
-	public Date getDatanascimento() {
-		return datanascimento;
-	}
-	public void setDatanascimento(Date datanascimento) {
-		this.datanascimento = datanascimento;
 	}
 	
 	
